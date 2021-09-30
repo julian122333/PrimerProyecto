@@ -1,0 +1,35 @@
+p{
+    color: brown;
+}
+h3{
+    color: aquamarine;
+}
+a{
+    background-color: yellowgreen;
+}
+#parrafo3{
+    color: rgb(20, 22, 21);
+}
+.textobrown{
+    color: brown;
+}
+.fondorojo{
+    background-color: brown;
+}
+.textoGrandeenNegrita{
+    font-size: x-large;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tamañodeImagen{
+    height: 100px;
+}
+.anchodeImagen{
+    width: 10px;
+}
+.margen{
+    display: grid;
+    grid-template-columns: 5;
+    border: 1px solid;
+}
