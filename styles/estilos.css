@@ -17,7 +17,7 @@ a{
     background-color: brown;
 }
 .textoGrandeenNegrita{
-    font-size: x-large;
+    font-size: 150px;
     font-weight: 100;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -29,7 +29,25 @@ a{
     width: 10px;
 }
 .margen{
-    display: grid;
-    grid-template-columns: 5;
     border: 1px solid;
+    margin: 5px;
+    padding: 20px;
+}
+.tabla{
+    border: 5px solid;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+
+}
+.tabla2{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.334%;
+
+}
+.contenedorDivsFlex{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    height: 500px;
+
 }
